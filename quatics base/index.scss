@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+
+    .header1{
+        background-color: #15153e;
+        height: 34rem;
+        position: relative;
+
+        .inline{
+            color: white;
+            display: flex;
+            align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+        }
+        .content{
+            position: absolute;
+            font-size: 25px;
+            padding-left: 17rem;
+            color:white ;
+        }
+        
+
+    }
+    .main-body {
+        background-color: ghostwhite;
+        height: 40rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .body-content{
+            font-size: x-large;
+            transform: translate(96px, 3px);
+            
+            
+        }
+    }
+    img {
+        width: 20%;
+        height: 30%;
+    }
+}
